@@ -21,7 +21,7 @@ const Home1 = (props) => {
   return (
     <Layouts
       rightPanelBackground={"/img/person/bg-1.jpg"}
-      rightPanelImg={"/img/person/portrait.png"}
+      rightPanelImg={"/img/person/portrait.jpg"}
     >
       <HeroOneSection />
       <AboutSection />

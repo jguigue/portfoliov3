@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
@@ -13,14 +13,17 @@ const Projects2 = (props) => {
   return (
     <Layouts
       rightPanelBackground={"/img/person/bg-4.jpg"}
-      rightPanelImg={"/img/person/5.png"}
+      rightPanelImg={"/img/person/portrait.jpg"}
     >
-      <PageBanner pageTitle={"Échantillons de projets réalisés"} breadTitle={"Portfolio"} align={"center"} />
+      <PageBanner
+        pageTitle={"Échantillons de projets réalisés"}
+        breadTitle={"Portfolio"}
+        align={"center"}
+      />
 
       <ProjectsGrid projects={props.projects} columns={2} />
-      
+
       <CallToActionSection />
-      
     </Layouts>
   );
 };
@@ -31,7 +34,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      projects: allProjects
-    }
-  }
+      projects: allProjects,
+    },
+  };
 }
