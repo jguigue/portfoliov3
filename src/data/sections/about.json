@@ -1,0 +1,12 @@
+{
+    "avatar": {
+        "image": "/img/logos/logo_couleur.svg",
+        "alt": "avatar"
+    },
+    "title": "Louis Guigue, chef de projet fraîchement diplômé avec six années d'expériences à son actif",
+    "description": "Je m’appelle Louis Guigue, 26 ans, 6 années d’alternances à mon actif et fraîchement diplômé d’un Master Ingémédia, Information Communication parcours Création, Innovation et Management de projets numériques à l'Université de Toulon. J'ai fait mes classes pendant deux années à Airbus Helicopters en tant que Community Manager, et responsable des communautés digitales mais aussi à My Groom Service une agence de création de sites pour hôtels et restaurants en tant qu’Assistant marketing.  Ma dernière expérience est celle de chef de projet numérique où j’ai eu l’opportunité de gérer de nombreux clients du secteur public dans la création de leurs sites. Mon objectif est de devenir Chef de projet web, Product Owner ou Scrum master. Ce qui m'importe le plus est d'exploiter mes expériences dans le multimédia au service d'une équipe (développement FE et BE, UX/UI, design graphique .etc)",
+    "signature": {
+        "image": "/img/person/sign.jpg",
+        "alt": "signature"
+    }
+}

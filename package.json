@@ -1,0 +1,27 @@
+{
+  "name": "courtney-nextjs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "formik": "^2.4.2",
+    "gray-matter": "^4.0.3",
+    "gsap": "^3.11.5",
+    "next": "13.4.3",
+    "parallax-js": "^3.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-gtm-module": "^2.0.11",
+    "remark": "^14.0.3",
+    "remark-html": "^15.0.2",
+    "sass": "^1.49.7",
+    "swiper": "^9.0.0",
+    "vue-toastify": "^2.0.0-alpha.2"
+  }
+}

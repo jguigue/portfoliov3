@@ -1,0 +1,23 @@
+{
+    "title": "Langues",
+    "items": [
+        {
+            "title": "Français",
+            "icon": "/img/icons/france.svg",
+            "text": "Langue natale",
+            "link": "/services/service-1"
+        },
+        {
+            "title": "Anglais",
+            "icon": "/img/icons/great-britain.svg",
+            "text": "Niveau avancé, TOEIC 895",
+            "link": "/services/service-2"
+        },
+        {
+            "title": "Italien",
+            "icon": "/img/icons/italy.svg",
+            "text": "Apprentissage en cours (A1)",
+            "link": "/services/service-3"
+        }
+    ]
+}
