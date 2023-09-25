@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={"index.jsx -> @components/sliders/Testimonial":{"id":"index.jsx -> @components/sliders/Testimonial","files":["static/chunks/src_components_sliders_Testimonial_jsx.js"]}}
+self.__REACT_LOADABLE_MANIFEST={"index.jsx -> @components/sliders/Testimonial":{id:4359,files:["static/css/e7f2c32b53a96c4e.css","static/chunks/359.7172be8106786c7b.js"]},"index3.jsx -> @components/sliders/Testimonial":{id:4359,files:["static/css/e7f2c32b53a96c4e.css","static/chunks/359.7172be8106786c7b.js"]}};
