@@ -1,8 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import appData from "@data/app.json";
-import TagManager from "react-gtm-module";
 import { useEffect } from "react";
+import { GTMProvider } from "@elgorditosalsero/react-gtm-hook";
 
 import "../styles/scss/style-dark.scss";
 //import '../styles/scss/style-light.scss';
@@ -11,13 +11,12 @@ import "../styles/globals.css";
 import { register } from "swiper/element/bundle";
 // register Swiper custom elements
 register();
+const gtmParams = { id: "GTM-WVK3NG8" };
 
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    TagManager.initialize({ gtmId: "<GTM-TBG5RBNZ>" });
-  }, []);
+  useEffect(() => {}, []);
   return (
-    <>
+    <GTMProvider state={gtmParams}>
       <Head>
         {/* seo begin */}
         <title>{appData.settings.siteName}</title>
@@ -25,7 +24,7 @@ function MyApp({ Component, pageProps }) {
         {/* seo end */}
       </Head>
       <Component {...pageProps} />
-    </>
+    </GTMProvider>
   );
 }
 

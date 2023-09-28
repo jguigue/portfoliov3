@@ -2,12 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/api/hello": "pages/api/hello.js",
-  "/404": "pages/404.html",
-  "/contact": "pages/contact.html",
-  "/index3": "pages/index3.js",
   "/": "pages/index.js",
-  "/projects": "pages/projects.js",
-  "/story": "pages/story.js",
-  "/projects/[id]": "pages/projects/[id].js"
+  "/404": "pages/404.js"
 }
