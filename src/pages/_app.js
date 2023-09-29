@@ -11,7 +11,7 @@ import "../styles/globals.css";
 import { register } from "swiper/element/bundle";
 // register Swiper custom elements
 register();
-const gtmParams = { id: "GTM-WVK3NG8" };
+const gtmParams = { id: "GTM-TBG5RBNZ" };
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {}, []);
