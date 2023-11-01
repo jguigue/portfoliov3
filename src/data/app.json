@@ -32,6 +32,22 @@
         "link": "/contact",
         "children": 0
       }
+      ,
+
+      {
+        "label": "Linkedin",
+        "link": "https://www.linkedin.com/in/louisguigue/",
+        "children": 0,
+        "target": "_blank"
+      }
+      ,
+
+      {
+        "label": "Porftolio photo",
+        "link": "https://www.photo.louisguigue.com",
+        "children": 0,
+        "target": "_blank"
+      }
     ]
   },
   "footer": {
