@@ -13,6 +13,15 @@ class MyDocument extends Document {
             property="og:description"
             content="Fraîchement diplômé d'un master en communication ,inovation et management de projets je cherche activement un emploi qui saura me satisfaire dans le multimédia. Découvrez mon portfolio pour en savoir plus."
           />
+            <script
+    dangerouslySetInnerHTML={{
+      __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TBG5RBNZ');`,
+    }}
+  />
           {/* meta end */}
 
           {/* public assets begin */}
@@ -24,6 +33,11 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <noscript
+    dangerouslySetInnerHTML={{
+      __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBG5RBNZ" height="0" width="0" style="display: none; visibility: hidden;" />`,
+    }}
+  />
         </body>
       </Html>
     );
