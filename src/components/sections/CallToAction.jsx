@@ -1,7 +1,9 @@
-import Data from "@data/sections/call-to-action.json";
+import { useTranslation } from 'next-i18next';
 import Link from "next/link";
 
 const CallToActionSection = ( { bg } ) => {
+    const { t } = useTranslation('cta');
+
   return (
     <>
         <div className="mil-divider mil-up mil-mb-90" />
@@ -11,9 +13,9 @@ const CallToActionSection = ( { bg } ) => {
             <div className="row justify-content-center">
                 <div className="col-lg-8">
                     <div className="mil-center">
-                        <h2 className="mil-up mil-mb-30">{Data.title}</h2>
+                        <h3 className="mil-up mil-mb-30">{t('title')}</h3>
                         <div className="mil-up">
-                            <Link href={Data.button.link} className="mil-btn mil-sm-btn">{Data.button.label}</Link>
+                            <Link href={t('button.link')} className="mil-btn mil-sm-btn">{t('button.label')}</Link>
                         </div>
                     </div>
                 </div>

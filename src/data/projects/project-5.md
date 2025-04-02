@@ -1,32 +1,58 @@
 ---
 #preview
-title: Logo Magic Bird
-image: /img/portfolio/magicbird/magicbird_1.webp
-category: Graphisme
+title:
+  fr: 'Charte & Logo "Where is Brian"'
+  en: 'Charter & Logo "Where is Brian"'
+image: /img/portfolio/whereisbrian/Fond_complexe.webp
+category:
+  fr: "Site web"
+  en: "Website"
 
-#full details
+#full
 details:
-    - label: "Client:"
-      value: "Master 1 CIMPN"
+  - label:
+      fr: "Client :"
+      en: "Client:"
+    value: "M1 CIMPN"
+  - label:
+      fr: "Date :"
+      en: "Date:"
+    value: "2022"
+  - label: "$category"
 
-    - label: "Date:"
-      value: "2022"
+gallery:
+  enabled: 1
+  items:
+    - image: /img/portfolio/whereisbrian/Logo.webp
+      alt:
+        fr: "image"
+        en: "image"
+    - image: /img/portfolio/whereisbrian/Planche.webp
+      alt:
+        fr: "image"
+        en: "image"
+    - image: /img/portfolio/whereisbrian/whereisbrian_1.webp
+      alt:
+        fr: "image"
+        en: "image"
 
-    - label: "$category"
-
-description:
-    enabled: 0
-    content: "
-        <p>Our pieces, ranging from sophisticated office chairs to versatile home furniture, embody a unique blend of style, functionality, and ergonomic excellence. Venture into the Aevoe universe and experience how our furniture transforms your daily living and working spaces into realms of elegance and comfort.</p>
-    "
-
-gallery: 
-    enabled: 1
-    items:
-        - image: /img/portfolio/magicbird/magicbird_1.webp
-          alt: "image"
-        - image: /img/portfolio/magicbird/magicbird_2.webp
-          alt: "image"
-
-
-          
+gallery2:
+  enabled: 1
+  items:
+    - image: /img/portfolio/whereisbrian/whereisbrian_2.webp
+      alt:
+        fr: "image"
+        en: "image"
+    - image: /img/portfolio/whereisbrian/whereisbrian_3.webp
+      alt:
+        fr: "image"
+        en: "image"
+    - image: /img/portfolio/whereisbrian/whereisbrian_4.webp
+      alt:
+        fr: "image"
+        en: "image"
+    - image: /img/portfolio/whereisbrian/whereisbrian_5.webp
+      alt:
+        fr: "image"
+        en: "image"
+---

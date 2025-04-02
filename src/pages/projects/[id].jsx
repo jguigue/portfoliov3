@@ -1,16 +1,16 @@
+import { useRouter } from 'next/router';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Layouts from "@layouts/Layouts";
-
 import Link from "next/link";
-
 import {
   getAllProjectsIds,
   getProjectData,
   getRelatedProjects,
-} from "@library/projects";
-
+} from "../../lib/projects";
 import RelatedProjectsSection from "@components/sections/RelatedProjects";
 
 const ProjectDetail = (props) => {
+  const { locale } = useRouter();
   const postData = props.data;
 
   return (
@@ -18,7 +18,6 @@ const ProjectDetail = (props) => {
       fullWidth={postData.fullWidth}
       rightPanelBackground={postData.image}
     >
-      {/* banner */}
       <section className="mil-banner-sm mil-center">
         <div className="mil-banner-top mil-up" />
         <div className="mil-banner-title">
@@ -45,18 +44,17 @@ const ProjectDetail = (props) => {
           <h1 className="mil-h1-sm mil-up mil-mb-60">{postData.title}</h1>
           <ul className="mil-breadcrumbs mil-up">
             <li>
-              <Link href="/">Accueil</Link>
+              <Link href="/">{locale === 'fr' ? 'Accueil' : 'Home'}</Link>
             </li>
             <li>
               <Link href="/projects">Portfolio</Link>
             </li>
-            <li>Project</li>
+            <li>{locale === 'fr' ? 'Projet' : 'Project'}</li>
           </ul>
         </div>
       </section>
-      {/* banner end */}
 
-      {postData.fullWidth == true && (
+      {postData.fullWidth && (
         <img
           src={postData.image}
           alt={postData.title}
@@ -65,7 +63,6 @@ const ProjectDetail = (props) => {
         />
       )}
 
-      {/* project */}
       <section className="mil-p-0-30">
         <div className="row justify-content-center">
           {typeof postData.description != "undefined" && (
@@ -82,6 +79,7 @@ const ProjectDetail = (props) => {
               )}
             </>
           )}
+
           {typeof postData.gallery != "undefined" && (
             <>
               {postData.gallery.enabled == 1 && (
@@ -149,20 +147,21 @@ const ProjectDetail = (props) => {
               )}
             </>
           )}
+
           {typeof postData.gallery2 != "undefined" && (
             <>
               {postData.gallery2.enabled == 1 && (
                 <>
                   {postData.gallery2.items.map((item, key) => (
                     <div
-                      key={`gallery-item-${key}`}
+                      key={`gallery2-item-${key}`}
                       className={key == 0 ? "col-lg-12" : "col-lg-6"}
                     >
                       <img
                         src={item.image}
                         alt={item.alt}
-                        style={{ width: "100%", height: "100%" }}
-                        className="mil-up mil-mb-30 py-3"
+                        style={{ width: "100%" }}
+                        className="mil-up mil-mb-30"
                       />
                     </div>
                   ))}
@@ -172,16 +171,16 @@ const ProjectDetail = (props) => {
           )}
         </div>
       </section>
-      {/* project end */}
 
-      <RelatedProjectsSection items={props.related} />
+      {props.related && <RelatedProjectsSection items={props.related} />}
     </Layouts>
   );
 };
+
 export default ProjectDetail;
 
-export async function getStaticPaths() {
-  const paths = getAllProjectsIds();
+export async function getStaticPaths({ locales }) {
+  const paths = getAllProjectsIds({ locales });
 
   return {
     paths,
@@ -189,12 +188,13 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params }) {
-  const postData = await getProjectData(params.id);
-  const relatedPosts = await getRelatedProjects(params.id);
+export async function getStaticProps({ params, locale }) {
+  const postData = await getProjectData(params.id, locale);
+  const relatedPosts = await getRelatedProjects(params.id, locale);
 
   return {
     props: {
+      ...(await serverSideTranslations(locale, ['common', 'projects'])),
       data: postData,
       related: relatedPosts,
     },

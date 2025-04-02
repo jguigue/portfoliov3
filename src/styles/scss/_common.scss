@@ -36,6 +36,13 @@ body {
     height: auto;
 }
 
+.mil-language-switcher {
+    color: white;
+}
+.mil-language-switcher .mil-active {
+    color: $accent;
+}
+
 /* -------------------------------------------
 
 typography

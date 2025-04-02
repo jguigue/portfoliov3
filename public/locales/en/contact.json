@@ -1,0 +1,16 @@
+{
+  "title": "Contact me!",
+  "info": {
+    "phone": "Phone:",
+    "mail": "Email:"
+  },
+  "form": {
+    "title": "Any questions?",
+    "name": "Your name",
+    "email": "Your email address",
+    "message": "Your message",
+    "submit": "Send message",
+    "success": "Thank you for your message, I will get back to you soon!",
+    "error": "Oops! There was a problem submitting your form"
+  }
+}

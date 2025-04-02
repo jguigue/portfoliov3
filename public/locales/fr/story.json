@@ -1,0 +1,72 @@
+{
+  "education": {
+    "title": "Parcours scolaire :",
+    "schools": {
+      "master": {
+        "name": "Université de Toulon",
+        "period": "sept. 2021 - sept. 2023",
+        "degree": "Master Ingémédia - Information Communication, Communication, innovation et management de projets numériques",
+        "description": "Ce master vise à acquérir : fondamentaux du management et de la conduite de projet, processus de management collaboratif, veille technologique, acquisition de connaissances et de compétences essentielles à l'élaboration de stratégies communicationnelles créatives dans des environnements numériques."
+      },
+      "license": {
+        "name": "Université de Toulon",
+        "period": "sept. 2020 -  sept. 2021",
+        "degree": "LP E-commerce et Marketing Numérique (ECMN)",
+        "description": "Cette licence pro forme aux techniques de commercialisation utilisant les NTIC et à l'adaptation des technologies internes à l'entreprise."
+      },
+      "dut": {
+        "name": "Université de Toulon",
+        "period": "sept. 2018 - sept. 2020",
+        "degree": "DUT Métiers du Multimédia et de l'Internet (MMI)",
+        "description": "Le DUT MMI englobe la conception et le développement de sites Web, la création graphique et la gestion et l'animation de projets numériques pour la communication des entreprises et organisations."
+      },
+      "bts": {
+        "name": "UIMM Provence",
+        "period": "sept. 2016 - sept. 2018",
+        "degree": "BTS Aéronautique",
+        "description": "Le BTS Aéronautique est un diplôme qui forme sur les activités de production, d'exploitation et de maintenance dans le domaine aéronautique."
+      }
+    }
+  },
+  "professional": {
+    "title": "Parcours professionnel :",
+    "experiences": {
+      "scalian": {
+        "title": "PMO + Data manager",
+        "period": "mars 2024 - aujourd'hui",
+        "company": "Scalian",
+        "description": "J'ai démarré en tant que PMO en mars 2024 pour le compte d'Airbus au sein de l'ESN Scalian. Ma première mission, de mars à décembre 2024, a consisté à coordonner un service dans le cadre d'un projet de transformation de supply chain comportant un important volet communication. À partir de janvier 2025, sans période d'intercontrat, j'ai pris en charge deux missions à mi-temps occupant 100% de mon temps. La première est une mission de PMO dans sa définition pure, à savoir la coordination d'acteurs dans la déconstruction/reconstruction d'un bâtiment de peinture. La seconde, plus axée numérique, concerne l'automatisation de tableaux de performance (Google Sheets) et l'accompagnement des équipes dans leur transition vers une nouvelle méthodologie. Mon parcours chez Airbus ne se limite pas à ces trois missions principales. De nombreuses missions annexes à caractère numérique ainsi qu'un sauvetage de projet en dernière minute sont venus enrichir mon expérience à temps plein."
+      },
+      "stratis": {
+        "title": "Chef de projet numérique",
+        "period": "sept. 2022 - sept. 2023",
+        "company": "STRATIS",
+        "description": "En tant que chef de projet numérique chez Stratis, j'ai été responsable en binôme avec un directeur de projet numérique de la gestion de projets web pour des collectivités sur toutes les phases de vie d'un projet de création de site : Réalisation de réunion de pré-lancement et lancement, création de wireframe pour les clients, coordination de l'équipe graphique, lancement des développements et suivi de la recette avec formation clients sur wordpress."
+      },
+      "univ_toulon": {
+        "title": "Chef de projet numérique",
+        "period": "mars 2022 - août 2022",
+        "company": "Université de Toulon",
+        "description": "En stage à l'Université de Toulon, j'ai été chef de projet pour un projet d'application éducative favorisant la formation hybride nommée \"E-DEAL\". J'ai été l'intermédiaire, en accompagnement de mon tuteur entre une entreprise de développement basée dans le Grand-Est \"Allucyne\" et l'Université de Toulon pour apporter mon expertise technique et d'élève sur cette application."
+      },
+      "groom": {
+        "title": "Assistant Marketing",
+        "period": "2020 - 2021",
+        "company": "My Groom Service",
+        "description": "Intégration de site sur CMS ReactJS, Création d'un dashboard Laravel 8, Redesign d'un annuaire web, diverses tâches de création et modification de logos et vidéos, Création de maquettes sous Adobe XD."
+      },
+      "airbus_comm": {
+        "title": "Chargé de communication",
+        "period": "2018 - 2021",
+        "company": "Airbus Helicopters",
+        "description": "Réalisation de supports audiovisuels, création de sites vitrines en HTML5, gestion de communautés, réalisation de teasers."
+      },
+      "airbus_tech": {
+        "title": "Technicien Prototype",
+        "period": "2016 - 2018",
+        "company": "Airbus Helicopters",
+        "description": "Coordination chantiers hélicoptères, suivi et maintien de données chantiers, analyse de manquants chantiers."
+      }
+    }
+  }
+}

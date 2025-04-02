@@ -1,26 +1,33 @@
+// pages/contact.js
 import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import SEO from '@components/SEO';
 import { Formik } from "formik";
 import appData from "@data/app.json";
+import { useTranslation } from 'next-i18next';
 
 const Contact = () => {
+  const { t } = useTranslation('contact');
+  
   return (
     <Layouts
       rightPanelBackground={"/img/person/bg-2.jpg"}
       rightPanelImg={"/img/person/portrait.jpg"}
     >
-      <PageBanner pageTitle={"Contactez-moi!"} align={"center"} />
+      <SEO page="contact" />
+      <PageBanner pageTitle={t('title')} align={"center"} />
 
       {/* info */}
       <div>
         <ul className="mil-puplication-details mil-up mil-mb-90">
           <li>
-            <span className="mil-upper mil-accent">Téléphone: </span>
+            <span className="mil-upper mil-accent">{t('info.phone')} </span>
             &nbsp;&nbsp;
             <span className="mil-upper mil-dark">+33 7 69 84 39 53</span>
           </li>
           <li>
-            <span className="mil-upper mil-accent">Mail: </span>&nbsp;&nbsp;
+            <span className="mil-upper mil-accent">{t('info.mail')} </span>&nbsp;&nbsp;
             <span className="mil-upper mil-dark">contact@louisguigue.com</span>
           </li>
         </ul>
@@ -40,7 +47,7 @@ const Contact = () => {
 
       <div className="mil-section-title mil-up">
         <div className="mil-divider" />
-        <h3>Une question ?</h3>
+        <h3>{t('form.title')}</h3>
       </div>
 
       {/* contact */}
@@ -76,8 +83,7 @@ const Contact = () => {
             })
               .then((response) => {
                 if (response.ok) {
-                  status.innerHTML =
-                    "Merci pour l'envoi, je reviendrai rapidement vers vous!";
+                  status.innerHTML = t('form.success');
                   form.reset();
                 } else {
                   response.json().then((data) => {
@@ -86,15 +92,13 @@ const Contact = () => {
                         .map((error) => error["message"])
                         .join(", ");
                     } else {
-                      status.innerHTML =
-                        "Oops! There was a problem submitting your form";
+                      status.innerHTML = t('form.error');
                     }
                   });
                 }
               })
               .catch((error) => {
-                status.innerHTML =
-                  "Oops! There was a problem submitting your form";
+                status.innerHTML = t('form.error');
               });
 
             setSubmitting(false);
@@ -119,7 +123,7 @@ const Contact = () => {
               <div className="col-lg-6 mil-up">
                 <input
                   type="text"
-                  placeholder="Votre nom"
+                  placeholder={t('form.name')}
                   name="name"
                   required="required"
                   onChange={handleChange}
@@ -130,7 +134,7 @@ const Contact = () => {
               <div className="col-lg-6 mil-up">
                 <input
                   type="email"
-                  placeholder="Votre adresse mail"
+                  placeholder={t('form.email')}
                   name="email"
                   required="required"
                   onChange={handleChange}
@@ -140,7 +144,7 @@ const Contact = () => {
               </div>
               <div className="col-lg-12 mil-up">
                 <textarea
-                  placeholder="Raison du message"
+                  placeholder={t('form.message')}
                   name="message"
                   required="required"
                   onChange={handleChange}
@@ -156,7 +160,7 @@ const Contact = () => {
               <div className="col-lg-4">
                 <div className="mil-adaptive-right mil-up mil-mb-30">
                   <button type="submit" className="mil-btn mil-sm-btn">
-                    <span>Envoyer le message</span>
+                    <span>{t('form.submit')}</span>
                   </button>
                 </div>
               </div>
@@ -169,4 +173,13 @@ const Contact = () => {
     </Layouts>
   );
 };
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['common', 'contact'])),
+    },
+  };
+}
+
 export default Contact;

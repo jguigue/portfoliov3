@@ -1,0 +1,72 @@
+{
+  "education": {
+    "title": "Education:",
+    "schools": {
+      "master": {
+        "name": "University of Toulon",
+        "period": "Sept. 2021 - Sept. 2023",
+        "degree": "Master's Degree in Digital Project Management and Innovation",
+        "description": "This master's program focuses on acquiring fundamentals of project management, collaborative management processes, technology watch, and essential knowledge for developing creative communication strategies in digital environments."
+      },
+      "license": {
+        "name": "University of Toulon",
+        "period": "Sept. 2020 - Sept. 2021",
+        "degree": "Professional License in E-commerce and Digital Marketing (ECMN)",
+        "description": "This professional license trains in marketing techniques using new technologies and adapting internal company technologies."
+      },
+      "dut": {
+        "name": "University of Toulon",
+        "period": "Sept. 2018 - Sept. 2020",
+        "degree": "DUT in Multimedia and Internet (MMI)",
+        "description": "The MMI DUT encompasses web design and development, graphic design, and digital project management and animation for business and organization communication."
+      },
+      "bts": {
+        "name": "UIMM Provence",
+        "period": "Sept. 2016 - Sept. 2018",
+        "degree": "BTS in Aeronautics",
+        "description": "The Aeronautics BTS is a diploma that trains in production, operations and maintenance activities in the aeronautical field."
+      }
+    }
+  },
+  "professional": {
+    "title": "Professional Experience:",
+    "experiences": {
+      "scalian": {
+        "title": "PMO + Data manager",
+        "period": "Mar. 2024 - Today",
+        "company": "Scalian",
+        "description": "I started as a PMO in March 2024 for Airbus through the consulting firm Scalian. My first assignment, from March to December 2024, involved coordinating a department within a supply chain transformation project with a significant communication component. From January 2025, without any bench time between contracts, I took on two part-time roles that occupy 100% of my schedule. The first is a pure PMO role, coordinating stakeholders in the deconstruction/reconstruction of a paint facility. The second is more digitally focused, involving the automation of performance spreadsheets (Google Sheets) and guiding teams through their transition to a new methodology. My journey at Airbus extends beyond these three main assignments. Numerous additional digital-oriented tasks and a last-minute project rescue have further enriched my full-time experience."
+      },
+      "stratis": {
+        "title": "Web Project Manager",
+        "period": "Sept. 2022 - Sept. 2023",
+        "company": "STRATIS",
+        "description": "As a digital project manager at Stratis, I was responsible, in partnership with a digital project director, for managing web projects for local authorities throughout all phases of a website creation project: Conducting pre-launch and launch meetings, creating wireframes for clients, coordinating the graphic team, initiating developments and monitoring testing with WordPress client training."
+      },
+      "univ_toulon": {
+        "title": "Web Project Manager",
+        "period": "March 2022 - August 2022",
+        "company": "University of Toulon",
+        "description": "During my internship at the University of Toulon, I was project manager for an educational application project promoting hybrid training called \"E-DEAL\". I was the intermediary, supporting my tutor between a development company based in Grand-Est \"Allucyne\" and the University of Toulon to bring my technical and student expertise to this application."
+      },
+      "groom": {
+        "title": "Marketing Assistant",
+        "period": "2020 - 2021",
+        "company": "My Groom Service",
+        "description": "Website integration on ReactJS CMS, Creation of a Laravel 8 dashboard, Web directory redesign, various logo and video creation and modification tasks, Creation of mockups using Adobe XD."
+      },
+      "airbus_comm": {
+        "title": "Communications Officer",
+        "period": "2018 - 2021",
+        "company": "Airbus Helicopters",
+        "description": "Creation of audiovisual materials, HTML5 showcase websites, community management, teaser production."
+      },
+      "airbus_tech": {
+        "title": "Prototype Technician",
+        "period": "2016 - 2018",
+        "company": "Airbus Helicopters",
+        "description": "Helicopter project coordination, project data monitoring and maintenance, project missing parts analysis."
+      }
+    }
+  }
+}

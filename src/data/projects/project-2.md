@@ -1,55 +1,60 @@
 ---
 #preview
-title: Sites de musées fictifs
-image: /img/portfolio/musees_toulon/musee_toulon3.webp
-category: Webdesign & Graphisme
+title:
+  fr: "Charte & logo pour un projet scolaire"
+  en: "Charter & Logo for School Project"
+image: /img/portfolio/charte_yourbox/Charte_Yourbox_7.webp
+category:
+  fr: "Graphisme"
+  en: "Graphics"
 
-#params
-fullWidth: true
-
-#full details
+#full
 details:
-    - label: "Client:"
-      value: "Licence Pro ECMN"
-
-    - label: "Date:"
-      value: "2021"
-
-    - label: "$category"
+  - label:
+      fr: "Client :"
+      en: "Client:"
+    value: "Licence Pro ECMN"
+  - label:
+      fr: "Date :"
+      en: "Date:"
+    value: "2022"
+  - label: "$category"
 
 description:
-    enabled: 1
-    content: '<a href="https://appjulien.netlify.app/musees/" target="_blank" class="mil-link mil-up mil-mb-60" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><span>Visiter le site</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>'
-    
+  enabled: 0
+  content:
+    fr: ""
+    en: ""
 
-gallery: 
-    enabled: 1
-    items:
-        - image: /img/portfolio/musees_toulon/musee_toulon1.webp
-          alt: "image"
+gallery:
+  enabled: 1
+  items:
+    - image: /img/portfolio/charte_yourbox/Charte_Yourbox_1.webp
+      alt:
+        fr: "image"
+        en: "image"
+    - image: /img/portfolio/charte_yourbox/Charte_Yourbox_2.webp
+      alt:
+        fr: "image"
+        en: "image"
+    - image: /img/portfolio/charte_yourbox/Charte_Yourbox_3.webp
+      alt:
+        fr: "image"
+        en: "image"
 
-        - image: /img/portfolio/musees_toulon/musee_toulon2.webp
-          alt: "image"
-
-        - image: /img/portfolio/musees_toulon/musee_toulon4.webp
-          alt: "image"
-
-description2:
-    enabled: 0
-    button:
-        label: Visiter le site
-        link: "https://appjulien.netlify.app/musees/"
-        target: "_blank"
-
-gallery2: 
-    enabled: 0
-    items:
-        - image: /img/portfolio/musees_toulon/musee_toulon1.webp
-          alt: "image"
-
-        - image: /img/portfolio/musees_toulon/musee_toulon2.webp
-          alt: "image"
-
-        - image: /img/portfolio/musees_toulon/musee_toulon4.webp
-          alt: "image"
+gallery2:
+  enabled: 1
+  items:
+    - image: /img/portfolio/charte_yourbox/Charte_Yourbox_4.webp
+      alt:
+        fr: "image"
+        en: "image"
+    - image: /img/portfolio/charte_yourbox/Charte_Yourbox_5.webp
+      alt:
+        fr: "image"
+        en: "image"
+    - image: /img/portfolio/charte_yourbox/Charte_Yourbox_6.webp
+      alt:
+        fr: "image"
+        en: "image"
 ---

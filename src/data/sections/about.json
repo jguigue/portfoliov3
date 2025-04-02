@@ -1,12 +1,26 @@
 {
+  "fr": {
     "avatar": {
-        "image": "/img/logos/logo_couleur.svg",
-        "alt": "avatar"
+      "image": "/img/logos/logo_couleur.svg",
+      "alt": "avatar"
     },
-    "title": "Louis Guigue, fraîchement diplômé avec six années d'expériences",
-    "description": "Je suis Louis Guigue, âgé de 26 ans, et fort de six années d'expériences en alternance. Récemment diplômé d'un Master en Ingémédia, parcours Information Communication axé sur la Création, l'Innovation et la Gestion de projets numériques à l'Université de Toulon, j'ai acquis une solide expérience dans le multimédia. Pendant trois ans, j'ai occupé le poste d'Assistant marketing et de Community manager, une période formatrice où j'ai appris les subtilités des domaines multimédias. Les deux années suivantes ont été dédiées à l'acquisition d'expérience en tant que chef de projet numérique. La première année a été consacrée à la gestion d'un projet en tant qu'intermédiaire entre un client et une agence de développement externe. La seconde année, dans le secteur public, m'a offert l'opportunité de gérer de multiples clients pour la création de leurs sites internet. Mon objectif professionnel est de devenir Chef de projet web ou PMO, où je pourrais pleinement mettre à profit mes compétences et mon expérience",
+    "title": "Louis Guigue, PMO & Chef de projet numérique",
+    "description": "Louis Guigue, 28 ans, diplômé en 2023 d'un Master Ingémédia à l'Université de Toulon (Information Communication, Création et Gestion de projets numériques). Six années d'expérience en alternance : trois ans comme Assistant marketing et Community manager, deux ans en tant que chef de projet numérique (projet de jumeau numérique Université de Toulon/Marine Nationale, puis gestion de création de sites web et d'équipes techniques pour le secteur public). Actuellement PMO chez Airbus Helicopters, sur des projets de transformation numérique, de construction d'infrastructure et d'automatisation de KPIs. Mon objectif : évoluer comme Chef de projet numérique pour mettre à profit mon expertise et mon expérience.",
     "signature": {
-        "image": "/img/person/sign.jpg",
-        "alt": "signature"
+      "image": "/img/person/sign.jpg",
+      "alt": "signature"
     }
+  },
+  "en": {
+    "avatar": {
+      "image": "/img/logos/logo_couleur.svg",
+      "alt": "avatar"
+    },
+    "title": "Louis Guigue, PMO & Digital project manager",
+    "description": "Louis Guigue, 28, graduated in 2023 with a Master's in Digital Media from the University of Toulon (Information Communication, Creation and Digital Project Management). Six years of work-study experience: three years as a Marketing Assistant and Community Manager, followed by two years as a Digital Project Manager (digital twin project between the University of Toulon/French Navy, then managing website creation and technical teams for the public sector). Currently a PMO at Airbus Helicopters, working on digital transformation projects, infrastructure construction, and KPI automation. My goal: to evolve as a Digital Project Manager to leverage my expertise and experience.",
+    "signature": {
+      "image": "/img/person/sign.jpg",
+      "alt": "signature"
+    }
+  }
 }

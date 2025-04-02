@@ -1,17 +1,36 @@
 {
+  "fr": {
+    "title": "Compétences Linguistiques",
+    "items": [
+      {
+        "label": "Français - Natif",
+        "value": "100"
+      },
+      {
+        "label": "Anglais - 895 TOEIC",
+        "value": "80"
+      },
+      {
+        "label": "Italien - en cours d'apprentissage",
+        "value": "10"
+      }
+    ]
+  },
+  "en": {
     "title": "Language Skills",
     "items": [
-        {
-            "label": "Français - Natif",
-            "value": "100"
-        },
-        {
-            "label": "Anglais - 895 TOIEC",
-            "value": "80"
-        },
-        {
-            "label": "Italien - en cours d'apprentissage",
-            "value": "10"
-        }
+      {
+        "label": "French - Native",
+        "value": "100"
+      },
+      {
+        "label": "English - 895 TOEIC",
+        "value": "80"
+      },
+      {
+        "label": "Italian - Learning in progress",
+        "value": "10"
+      }
     ]
+  }
 }

@@ -1,6 +1,6 @@
 {
   "title": "Compétences",
-  "items": [
+  "skills": [
     {
       "label": "Gestion de projet agile & en cascade",
       "value": "90"
@@ -10,7 +10,7 @@
       "value": "90"
     },
     {
-      "label": "Google Workspace (+ Apps Script",
+      "label": "Google Workspace (+ Apps Script)",
       "value": "90"
     },
     {

@@ -1,0 +1,16 @@
+{
+  "title": "Contactez-moi!",
+  "info": {
+    "phone": "Téléphone:",
+    "mail": "Mail:"
+  },
+  "form": {
+    "title": "Une question ?",
+    "name": "Votre nom",
+    "email": "Votre adresse mail",
+    "message": "Raison du message",
+    "submit": "Envoyer le message",
+    "success": "Merci pour l'envoi, je reviendrai rapidement vers vous!",
+    "error": "Oops! Un problème est survenu lors de l'envoi du formulaire"
+  }
+}

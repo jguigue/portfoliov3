@@ -18,10 +18,6 @@ const PageBanner = ({ pageTitle, breadTitle, align }) => {
 
   return (
     <>
-      <Head>
-        <title>{headTitle}</title>
-      </Head>
-      
       {/* banner */}
       <section className={`mil-banner-sm mil-${align}`}>
           <div className="mil-banner-top mil-up"></div>

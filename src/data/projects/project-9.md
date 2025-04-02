@@ -1,62 +1,58 @@
 ---
 #preview
-title: Court métrage muet
+title:
+  fr: "Court métrage muet"
+  en: "Silent Short Film"
 image: /img/portfolio/SAM/SAM_miniature.png
-category: Cadrage & Montage
+category:
+  fr: "Cadrage & Montage"
+  en: "Framing & Editing"
 
 #params
 fullWidth: true
 
-#full details
+#full
 details:
-    - label: "Client:"
-      value: "M1 CIMPN"
-
-    - label: "Date:"
-      value: "2021"
-
-    - label: "$category"
+  - label:
+      fr: "Client :"
+      en: "Client:"
+    value: "M1 CIMPN"
+  - label:
+      fr: "Date :"
+      en: "Date:"
+    value: "2021"
+  - label: "$category"
 
 description:
-    enabled: 1
-    content: '
-        <iframe src="https://player.vimeo.com/video/666687640?h=7caecc33a4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/666687640"></a></p>
-    '
+  enabled: 1
+  content:
+    fr: '<iframe src="https://player.vimeo.com/video/666687640?h=7caecc33a4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe><p><a href="https://vimeo.com/666687640"></a></p>'
+    en: '<iframe src="https://player.vimeo.com/video/666687640?h=7caecc33a4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe><p><a href="https://vimeo.com/666687640"></a></p>'
 
-gallery: 
-    enabled: 0
-    items:
-        - image: //img/portfolio/SAM/SAM_miniature.png
-          alt: "image"
-
-        - image: /img/portfolio/project-1/3.jpg
-          alt: "image"
-
-        - image: /img/portfolio/project-1/4.jpg
-          alt: "image"
+gallery:
+  enabled: 0
+  items:
+    - image: /img/portfolio/SAM/SAM_miniature.png
+      alt:
+        fr: "image"
+        en: "image"
 
 description2:
-    enabled: 0
-    heading: "Visual identity design"
-    content: "
-        <p>Embrace the extraordinary with Aevoe - a premium furnishing brand that fuses modern design with supreme comfort.</p>
-        <p>Our pieces, ranging from sophisticated office chairs to versatile home furniture, embody a unique blend of style, functionality, and ergonomic excellence. Venture into the Aevoe universe and experience how our furniture transforms your daily living and working spaces into realms of elegance and comfort.</p>
-    "
-    button:
-        label: Visit website
-        link: "https://bslthemes.com/"
-        target: "_blank"
+  enabled: 0
+  heading:
+    fr: "Design d'identité visuelle"
+    en: "Visual identity design"
+  content:
+    fr: ""
+    en: ""
+  button:
+    label:
+      fr: "Visiter le site"
+      en: "Visit website"
+    link: ""
+    target: "_blank"
 
-gallery2: 
-    enabled: 0
-    items:
-        - image: /img/portfolio/project-1/5.jpg
-          alt: "image"
-
-        - image: /img/portfolio/project-1/6.jpg
-          alt: "image"
-
-        - image: /img/portfolio/project-1/7.jpg
-          alt: "image"
+gallery2:
+  enabled: 0
+  items: []
 ---

@@ -1,8 +1,8 @@
 import React from "react";
 import Layouts from "@layouts/Layouts";
 import dynamic from "next/dynamic";
-
 import { getSortedPostsData } from "@library/posts";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import HeroOneSection from "@components/sections/HeroOne";
 import AboutSection from "@components/sections/About";
@@ -32,13 +32,23 @@ const Home1 = (props) => {
     </Layouts>
   );
 };
+
 export default Home1;
 
-export async function getStaticProps() {
+export async function getStaticProps({ locale }) {
   const allPosts = getSortedPostsData();
 
   return {
     props: {
+      ...(await serverSideTranslations(locale, [
+        'common',
+        'story',
+        'hero',
+        'about',
+        'skills',
+        'services',
+        'cta'
+      ])),
       posts: allPosts,
     },
   };

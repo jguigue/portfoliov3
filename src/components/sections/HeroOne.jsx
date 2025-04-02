@@ -1,15 +1,16 @@
-import Data from "@data/sections/hero-1.json";
+import { useTranslation } from 'next-i18next';
 
 const HeroOne = () => {
+      const { t } = useTranslation('hero');
     return (
         <>
             {/* banner */}
             <section className="mil-side-banner mil-center">
                 <div className="mil-banner-top mil-up"></div>
                 <div className="mil-banner-title">
-                    <div className="mil-upper mil-dark mil-up mil-mb-30">{Data.subtitle}</div>
-                    <h1 className="mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: Data.title }} />
-                    <p className="mil-upper mil-dark mil-up">{Data.description}</p>
+                    <div className="mil-upper mil-dark mil-up mil-mb-30">{t('subtitle')}</div>
+                    <h1 className="mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: t('title') }} />
+                    <p className="mil-upper mil-dark mil-up">{t('description')}</p>
                 </div>
                 <div className="mil-up mil-oval-frame">
                     <div className="mil-circle-text">
@@ -22,11 +23,11 @@ const HeroOne = () => {
                                 <use xlinkHref="#circlePath" fill="none" />
                                 <text style={{ "letterSpacing": "6.5px" }}>
                                     {/* circle text */}
-                                    <textPath xlinkHref="#circlePath">Dernière version de mon CV -</textPath>
+                                    <textPath xlinkHref="#circlePath">{t('cv')}</textPath>
                                 </text>
                             </g>
                         </svg>
-                        <a href="/CV.pdf" className="mil-button" target="_blank">
+                        <a href={t('cvPath')}  className="mil-button" target="_blank">
                             <svg height="30px" width="30px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"  xmlSpace="preserve">
                                 <g>
                                 	<path fill="white" class="st0" d="M276.239,252.183c-6.37,2.127-13.165,3.308-20.239,3.308c-7.074,0-13.87-1.181-20.24-3.308c-46.272,7.599-70.489,41.608-70.489,82.877H256h90.728C346.728,293.791,322.515,259.782,276.239,252.183z"/>

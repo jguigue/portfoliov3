@@ -1,0 +1,20 @@
+{
+  "seo": {
+    "default": {
+      "title": "Louis Guigue - Web Project Manager Portfolio",
+      "description": "Louis Guigue, web project manager in Toulon. Explore my portfolio to discover my innovative projects and expertise in digital development."
+    },
+    "home": {
+      "title": "Louis Guigue - Home",
+      "description": "Welcome to Louis Guigue's portfolio, a web project manager specialized in digital project management."
+    },
+    "portfolio": {
+      "title": "Louis Guigue - Projects",
+      "description": "Discover my web projects and achievements as a digital project manager."
+    },
+    "contact": {
+      "title": "Louis Guigue - Contact",
+      "description": "Contact me to discuss your projects or professional opportunities."
+    }
+  }
+}

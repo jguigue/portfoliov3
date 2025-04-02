@@ -1,6 +1,9 @@
 {
   "settings": {
-    "siteName": "Louis Guigue, portfolio d'un chef de projet web",
+    "siteName": {
+      "fr": "Louis Guigue, portfolio d'un chef de projet numérique",
+      "en": "Louis Guigue, portfolio of a web project manager"
+    },
     "formspreeURL": "https://formspree.io/f/myyqnbea",
     "mailchimp": {
       "url": "",
@@ -15,44 +18,76 @@
     "button": {
       "link": "/contact"
     },
-    "menu": [
-      {
-        "label": "Accueil",
-        "link": "/",
-        "children": 0
-      },
-      {
-        "label": "Portfolio",
-        "link": "/projects",
-        "children": 0
-      },
-
-      {
-        "label": "Contact",
-        "link": "/contact",
-        "children": 0
-      }
-      ,
-
-      {
-        "label": "Linkedin",
-        "link": "https://www.linkedin.com/in/louisguigue/",
-        "children": 0,
-        "target": "_blank"
-      }
-      ,
-
-      {
-        "label": "Porftolio photo",
-        "link": "https://www.photo.louisguigue.com",
-        "children": 0,
-        "target": "_blank"
-      }
-    ]
+    "menu": {
+      "fr": [
+        {
+          "label": "Accueil",
+          "link": "/",
+          "children": 0
+        },
+        {
+          "label": "Portfolio",
+          "link": "/projects",
+          "children": 0
+        },
+        {
+          "label": "Contact",
+          "link": "/contact",
+          "children": 0
+        },
+        {
+          "label": "Linkedin",
+          "link": "https://www.linkedin.com/in/louisguigue/",
+          "children": 0,
+          "target": "_blank"
+        },
+        {
+          "label": "Portfolio photo",
+          "link": "https://www.photo.louisguigue.com",
+          "children": 0,
+          "target": "_blank"
+        }
+      ],
+      "en": [
+        {
+          "label": "Home",
+          "link": "/",
+          "children": 0
+        },
+        {
+          "label": "Portfolio",
+          "link": "/projects",
+          "children": 0
+        },
+        {
+          "label": "Contact",
+          "link": "/contact",
+          "children": 0
+        },
+        {
+          "label": "Linkedin",
+          "link": "https://www.linkedin.com/in/louisguigue/",
+          "children": 0,
+          "target": "_blank"
+        },
+        {
+          "label": "Photo Portfolio",
+          "link": "https://www.photo.louisguigue.com",
+          "children": 0,
+          "target": "_blank"
+        }
+      ]
+    }
   },
   "footer": {
-    "copy": "© 2023. GUIGUE Julien Louis. Tous droits réservés.",
-    "dev": "Développé en ReactJS"
+    "fr": {
+      "copy": "© 2023. GUIGUE Julien Louis. Tous droits réservés.",
+      "dev": "Développé en ReactJS"
+    },
+    "en": {
+      "copy": "© 2023. GUIGUE Julien Louis. All rights reserved.",
+      "dev": "Developed with ReactJS"
+    }
   },
   "social": [
     {

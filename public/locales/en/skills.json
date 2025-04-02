@@ -1,0 +1,49 @@
+{
+    "title": "Skills",
+    "skills": [
+        {
+            "label": "Agile & Waterfall Project Management",
+            "value": "90"
+        },
+        {
+            "label": "Digital Communication",
+            "value": "90"
+        },
+        {
+            "label": "HTML5/CSS3/WP",
+            "value": "90"
+        },
+        {
+            "label": "Figma / Adobe XD",
+            "value": "80"
+        },
+        {
+            "label": "Prompt Engineering",
+            "value": "80"
+        },
+        {
+            "label": "Adobe Illustrator",
+            "value": "80"
+        },
+        {
+            "label": "Adobe Indesign",
+            "value": "70"
+        },
+        {
+            "label": "SEO/SMO",
+            "value": "60"
+        },
+        {
+            "label": "Adobe Premiere Pro",
+            "value": "60"
+        },
+        {
+            "label": "VueJS / Laravel",
+            "value": "50"
+        },
+        {
+            "label": "Adobe After Effects",
+            "value": "40"
+        }
+    ]
+}

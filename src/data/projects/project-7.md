@@ -1,61 +1,54 @@
 ---
 #preview
-title: Charte & Logo "Where is brian"
-image: /img/portfolio/whereisbrian/Fond_complexe.webp
-category: Website
+title:
+  fr: "Court métrage muet"
+  en: "Silent Short Film"
+image: /img/portfolio/SAM/SAM_miniature.png
+category:
+  fr: "Cadrage & Montage"
+  en: "Framing & Editing"
 
-#full details
+#params
+fullWidth: true
+
+#full
 details:
-    - label: "Client:"
-      value: "M1 CIMPN"
-
-    - label: "Date:"
-      value: "2022"
-
-    - label: "$category"
+  - label:
+      fr: "Client :"
+      en: "Client:"
+    value: "M1 CIMPN"
+  - label:
+      fr: "Date :"
+      en: "Date:"
+    value: "2021"
+  - label: "$category"
 
 description:
-    enabled: 0
-    content: "
-        <p>Our pieces, ranging from sophisticated office chairs to versatile home furniture, embody a unique blend of style, functionality, and ergonomic excellence. Venture into the Aevoe universe and experience how our furniture transforms your daily living and working spaces into realms of elegance and comfort.</p>
-    "
+  enabled: 1
+  content:
+    fr: '<iframe src="https://player.vimeo.com/video/666687640?h=7caecc33a4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>'
+    en: '<iframe src="https://player.vimeo.com/video/666687640?h=7caecc33a4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>'
 
-gallery: 
-    enabled: 1
-    items:
-        - image: /img/portfolio/whereisbrian/Logo.webp
-          alt: "image"
-
-        - image: /img/portfolio/whereisbrian/Planche.webp
-          alt: "image"
-
-        - image: /img/portfolio/whereisbrian/whereisbrian_1.webp
-          alt: "image"
+gallery:
+  enabled: 0
+  items:
+    - image: /img/portfolio/SAM/SAM_miniature.png
+      alt:
+        fr: "image"
+        en: "image"
 
 description2:
-    enabled: 0
-    heading: "Visual identity design"
-    content: "
-        <p>Embrace the extraordinary with Aevoe - a premium furnishing brand that fuses modern design with supreme comfort.</p>
-        <p>Our pieces, ranging from sophisticated office chairs to versatile home furniture, embody a unique blend of style, functionality, and ergonomic excellence. Venture into the Aevoe universe and experience how our furniture transforms your daily living and working spaces into realms of elegance and comfort.</p>
-    "
-    button:
-        label: Visit website
-        link: "https://bslthemes.com/"
-        target: "_blank"
-
-gallery2: 
-    enabled: 1
-    items:
-        - image: /img/portfolio/whereisbrian/whereisbrian_2.webp
-          alt: "image"
-
-        - image: /img/portfolio/whereisbrian/whereisbrian_3.webp
-          alt: "image"
-
-        - image: /img/portfolio/whereisbrian/whereisbrian_4.webp
-          alt: "image"
-
-        - image: /img/portfolio/whereisbrian/whereisbrian_5.webp
-          alt: "image"
+  enabled: 0
+  heading:
+    fr: ""
+    en: ""
+  content:
+    fr: ""
+    en: ""
+  button:
+    label:
+      fr: "Visiter le site"
+      en: "Visit website"
+    link: ""
+    target: "_blank"
 ---
